@@ -1,0 +1,46 @@
+// SETUP
+// @import 'setup/typography';
+@import 'setup/_variables';
+@import 'setup/mixins.scss';
+
+// BASICS
+@import 'basics/base';
+@import 'basics/layout';
+@import 'basics/helpers';
+
+// FONTS
+@import 'setup/fonts';
+
+// CMPS
+@import 'components/_header.scss';
+@import 'components/_header-scroll.scss';
+@import 'components/_header-explore.scss';
+@import 'components/_footer.scss';
+@import 'components/_gig-filter.scss';
+@import 'components/_gig-list.scss';
+@import 'components/_gig-preview.scss';
+@import 'components/_gig-sort.scss';
+@import 'components/_popular-card.scss';
+@import 'components/_popular-list.scss';
+@import 'components/_header-categories.scss';
+@import 'components/_slick.scss';
+@import 'components/_review-list.scss';
+@import 'components/user_nav.scss';
+@import 'components/_login-signup.scss';
+@import 'components/_login-signup.scss';
+@import 'components/_alert-message.scss';
+@import 'components/_popover-nav.scss';
+@import 'components/_profile-header.scss';
+@import 'components/_add-review.scss';
+
+// PAGES
+@import 'views/_home.scss';
+@import 'views/_user-page.scss';
+@import 'views/_admin-page.scss';
+@import 'views/_gig-explore.scss';
+@import 'views/_gig-edit.scss';
+@import 'views/_gig-details.scss';
+@import 'views/_workerr-app.scss';
+@import 'views/_gig-check-out.scss';
+@import 'views/_gig-orders.scss';
+@import 'views/_add-new-gig.scss';

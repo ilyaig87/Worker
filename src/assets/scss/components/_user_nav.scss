@@ -1,0 +1,117 @@
+// .user-page-orders {
+//   // margin-left: 91px;
+// }
+
+.profile-user {
+  .user-container {
+    padding: 30px;
+    width: 338px;
+    border: 1px $footer-line-gray solid;
+  }
+
+  .on-off {
+    height: 18px;
+    width: 53px;
+    position: absolute;
+    margin-left: 250px;
+    border: 1px solid #1dbf73;
+    border-radius: 12px;
+    color: #1dbf73;
+    padding: 0 6px 0 6px;
+  }
+
+  // .dot {
+  //   color: #1dbf73;
+  //   text-align: center;
+  // }
+  i {
+    color: #1dbf73;
+  }
+}
+
+.profile-pic {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  user-select: none;
+  margin: auto;
+  object-fit: cover;
+}
+
+.user-container {
+  text-align: center;
+
+  .user-name {
+    // width: 338px;
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 18.5px;
+  }
+
+  .show {
+    color: #222325;
+    font-size: 20px;
+    line-height: 18.5px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  .profile-btn {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    // background-color: grey;
+    width: 338px;
+    height: 14px;
+    // border: 1px $footer-line-gray solid;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 0 10px 0;
+    color: #62646a;
+
+    &:hover {
+      background-color: #62646a;
+      color: white;
+    }
+  }
+
+  .user-details {
+    padding-top: 20px;
+    margin-top: 24px;
+    height: 52px;
+    border-top: 1px $footer-line-gray solid;
+
+    .first {
+      margin-bottom: 15px;
+
+      .from-since {
+        align-items: center;
+      }
+    }
+
+    .second {
+      .member {
+        height: fit-content;
+        align-items: center;
+      }
+    }
+
+    .location {
+      height: 12px;
+    }
+
+    .user {
+      height: 12px;
+    }
+
+    .from {
+      margin-left: 5px;
+    }
+
+    .country {
+      // margin-left: 242px;
+    }
+  }
+}

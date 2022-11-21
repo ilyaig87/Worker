@@ -1,0 +1,10 @@
+.gig-list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    // grid-template-rows: repeat(auto-fit, minmax(300px,353px));
+    // grid-template-rows: repeat(max(400px));
+
+    gap: 32px;
+    // margin-top: 82px;
+    padding-bottom: 64px;
+}

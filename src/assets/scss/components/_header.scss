@@ -1,0 +1,73 @@
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  // width: 100%;
+  font-size: 16px;
+  z-index: 10;
+  padding: 0;
+  transition: 0.2s;
+
+
+  .logo {
+    @include for-mobile-layout {
+      margin: auto;
+    }
+
+    font-size: 2em;
+    letter-spacing: -1.5px;
+    font-family: Work Sans Bold;
+    font-size: 30px;
+    padding-bottom: 7px;
+    color: white;
+
+    span {
+      color: $bright-green;
+      font-size: 45px;
+    }
+  }
+
+  .header {
+    height: 100%;
+  }
+
+  .header-nav {
+
+    @include for-mobile-layout {
+      display: none;
+    }
+  }
+
+
+  .header-nav>a {
+    padding: 0 10px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .header-join {
+    padding: 7px 20px;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 1px;
+    border: 1px white solid;
+    border-radius: 8px;
+    transition: 0.2s;
+    margin-left: 5px;
+    a {
+      color: white;
+    }
+  }
+
+  .header-join:hover {
+    background-color: $bright-green;
+    border-color: $bright-green;
+  }
+}
